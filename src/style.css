@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    line-height: 1;
+    font-style: normal;
+    font-weight: normal;
+    font-family: "Montserrat", "Arial";
+    color: #000000;
+    text-decoration: none;
+}
+body {
+    background: #fff0d5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header {
+    display: flex;
+    justify-content: center;
+    font-size: clamp(1rem, 9vw, 2.5rem);
+    margin: 2rem 2vw 2.5rem 2vw;
+    gap: 0.75rem;
+}
+h1 {
+    font-size: inherit;
+    text-align: center;
+    font-style: italic;
+    font-family: "Lobster Two", "Arial";
+}
+img {
+    display: block;
+    height: clamp(1rem, 9vw, 2.5rem);
+    transform: scale(1.35);
+}
+p {
+    line-height: 1.35;
+    max-width: min(40ch, 90vw);
+    text-align: center;
+}
+a {
+    text-decoration: underline;
+}
+a, a p {
+    color: #ff7b00;
+}
+em {
+    font-style: italic;
+}
+div {
+    display: flex;
+    gap: clamp(0.5rem, 5vw, 2rem);
+    margin-block: 1.75rem;
+}
+div a {
+    height: 1rem;
+    display: flex;
+    gap: 0.5rem;
+}
+div a p {
+    line-height: 1;
+}

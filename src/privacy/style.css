@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    color: #000000;
+}
+header {
+    display: flex;
+    justify-content: center;
+    font-size: clamp(1rem, 9vw, 2.5rem);
+    padding: 1.5rem 2vw 2rem 2vw;
+    gap: 0.75rem;
+    background: #fff0d5;
+    position: sticky;
+    top: 0;
+    box-shadow: 0 0 0.5rem 0.5rem #00000012;
+}
+main {
+    margin: max(3vw, 1.5rem);
+}
+h1 {
+    font-size: inherit;
+    text-align: center;
+    font-style: italic;
+    font-weight: normal;
+    line-height: 1;
+    font-family: "Lobster Two", "Arial";
+}
+img {
+    display: block;
+    height: clamp(1rem, 9vw, 2.5rem);
+    transform: scale(1.35);
+}
+li {
+    list-style-position: inside;
+}
